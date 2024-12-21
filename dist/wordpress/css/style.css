@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo {
+    height: 830px;
+    background: url(../img/bg/main_bg.jpg) center center/cover no-repeat;
+    padding: 38px 0 62px 0; 
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 21px;
+}
+
+.title {
+    color: #F9BF3B;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+
+.simple .title_big {
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    margin-top: 23px;
+    color: #FFF;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px; 
+} 
+
+.promo .promo_text span {
+    color: #F9BF3B;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 313px;
+    height: 72px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    color: #FFF;
+    font-family: RobotoCondensed;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.more {
+    margin-top: 71px;
+}
+
+.more .more_text {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.waiting {
+    min-height: 657px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header {
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.finish .finish_header {
+    color:#fff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 4px;
+    background-color: #F9BF3B;;
+}
+
+.waiting .waiting_subheader {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 19px;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 369px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 26px;
+    color: #4A4A4A;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299CBD;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4A4A4A;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px; 
+}
+.optimization .optimization_text span {
+    font-family: Roboto;
+    font-weight: 700;
+}
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -200px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 67px 0;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+.finish .finish_wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background-color:#B4E2FF;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.gift {
+    min-height: 631px;
+    padding: 86px 0 88px 0;
+    background-color: #EFEFEF;
+}
+.gift .gift_image{
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift_text {
+    margin-top: 45px;
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+}
+.gift .gift_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 51px;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    text-align: center;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.webinar {
+    min-height: 512px;
+    padding: 89px 0 51px 0;
+}
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+.webinar .first_webinar-text {
+    margin-top: 36px;
+    color: #252525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.webinar .time_text {
+    margin-top: 30px;
+    color: #299CBD;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.webinar .places_text {
+    margin-top: 25px;
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.footer {
+    min-height: 169px;
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+}
+.footer .footer_text {
+    display: block;
+    margin: 0 auto;
+    color: #888;
+    width: 407px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px; /* 140% */
+    text-decoration-line: underline;
+}
